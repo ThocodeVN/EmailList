@@ -5,7 +5,7 @@ FROM tomcat:9-jdk17-openjdk-slim
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 
 # Bước 3: Sao chép file WAR vào thư mục webapps của Tomcat
-COPY target/your-app.war /usr/local/tomcat/webapps/ROOT.war
+COPY target/MurachWeb-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/ROOT.war
 
 # Bước 4: Mở port 8080 để truy cập ứng dụng web
 EXPOSE 8080
