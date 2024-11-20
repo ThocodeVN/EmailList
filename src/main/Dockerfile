@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Expose port 8080 (common for Spring Boot apps)
-EXPOSE 8089
+EXPOSE 8080
 
 
 
